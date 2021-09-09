@@ -1,0 +1,127 @@
+.radio-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.radio-component {
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  width: 300px;
+  margin: 20% 40px;
+  overflow: hidden;
+  margin: 10% auto;
+}
+
+.radio-component-header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffc98c;
+  color: white;
+}
+
+i {
+  color: white;
+  padding: 0 23px;
+  font-size: 20px;
+}
+
+.radiolist {
+  padding-top: 10px;
+  background: rgba(40, 39, 51, 0.92);
+  width: 100%;
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.radiolist-content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  opacity: 0.7;
+  margin: 20px 0;
+}
+
+.radio p {
+  margin: 10px 0;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.border-bottom:last-child {
+  border-bottom: none;
+}
+
+.frequency-bold {
+  font-weight: bold;
+}
+
+.radio-footer {
+  text-align: center;
+  width: 100%;
+  color: white;
+  height: 60px;
+  background: rgb(40, 39, 51);
+}
+
+.radio-img {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+img {
+  height: 100%;
+  width: 61%;
+  border-radius: 88px;
+  background-size: cover;
+}
+
+.image-display {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.hide-box {
+  display: none;
+}
+
+h5 {
+  margin: 0;
+  padding-top: 5px;
+  color: #ffc98c;
+}
+
+.footer-text p {
+  margin: 5px 0;
+  padding-bottom: 20px;
+  font-size: 24px;
+  opacity: 0.7;
+  font-weight: normal;
+}
+
+button {
+  padding: none;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 10px 0;
+  cursor: pointer;
+}
